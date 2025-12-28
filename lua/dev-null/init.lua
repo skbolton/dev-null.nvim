@@ -1,5 +1,7 @@
 local M = {}
 
+M
+
 local p = {
   white0 = "#ffffff",
   white1 = "#f4f4f4",
@@ -57,6 +59,7 @@ local groups = {
   LineNr = { fg = p.gray0 },
   CursorLineNr = { fg = p.purple40 },
   Pmenu = { link = "Normal" },
+  PmenuSel = { bg = p.teal30, fg = p.black0 },
   CursorLine = { bg = p.black2 },
   Visual = { bg = p.black3 },
   CurSearch = { bg = p.purple60, fg = p.black0 },
