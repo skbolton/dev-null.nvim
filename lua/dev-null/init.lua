@@ -1,7 +1,5 @@
 local M = {}
 
-M
-
 local p = {
   white0 = "#ffffff",
   white1 = "#f4f4f4",
