@@ -58,6 +58,7 @@ local groups = {
   CursorLineNr = { fg = p.purple40 },
   Pmenu = { bg = p.black2 },
   PmenuSel = { bg = p.teal30, fg = p.black0 },
+  StatusLineNC = { bg = p.black3, fg = p.white3 },
   CursorLine = { bg = p.black2 },
   Visual = { bg = p.black3 },
   CurSearch = { bg = p.teal30, fg = p.black0 },
