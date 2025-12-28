@@ -56,7 +56,7 @@ local groups = {
   Comment = { fg = p.black4, italic = true },
   LineNr = { fg = p.gray0 },
   CursorLineNr = { fg = p.purple40 },
-  Pmenu = { link = "Normal" },
+  Pmenu = { bg = p.black2 },
   PmenuSel = { bg = p.teal30, fg = p.black0 },
   CursorLine = { bg = p.black2 },
   Visual = { bg = p.black3 },
