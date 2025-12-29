@@ -91,6 +91,7 @@ local groups = {
   ["@module"] = { fg = p.blue30 },
   ["@tag"] = { link = "@module" },
   ["@tag.delimiter"] = { link = "Delimiter" },
+  ["@constructor"] = { fg = p.purple40 },
 
   -- tone down atoms in elixir which are overbearing
   ["@string.special.symbol.elixir"] = { fg = p.white3 },
@@ -100,8 +101,8 @@ local groups = {
   ["@lsp.type.method"] = { link = "@function.call" },
   ["@lsp.mod.declaration"] = { link = "@function" },
 
-  -- Weird ones
-  ["@constructor"] = { fg = p.purple10 },
+  -- tone down lua table delimiters
+  ["@constructor.lua"] = { fg = p.purple10 },
 
   TelescopeBorder = { fg = p.black3, bg = p.black1 },
   TelescopeTitle = { fg = p.teal20 },
