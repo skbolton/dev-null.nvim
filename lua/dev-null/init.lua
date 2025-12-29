@@ -58,6 +58,7 @@ local groups = {
   CursorLineNr = { fg = p.purple40 },
   Pmenu = { bg = p.black2 },
   PmenuSel = { bg = p.teal30, fg = p.black0 },
+  WinSeparator = { fg = p.black3 },
   StatusLine = { bg = p.black3, fg = p.white3 },
   StatusLineNC = { bg = p.black2, fg = p.white3 },
   CursorLine = { bg = p.black2 },
