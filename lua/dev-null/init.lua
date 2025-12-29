@@ -75,6 +75,7 @@ local groups = {
   Statement = { link = "Normal" },
   Special = { link = "Normal" },
   Constant = { fg = p.white2 },
+  Number = { fg = p.blue50 },
   Type = { link = "Normal" },
   Delimiter = { fg = p.blue20 },
 
@@ -87,6 +88,8 @@ local groups = {
   ["@boolean"] = { fg = p.teal10, bold = true },
   ["@punctuation.special"] = { fg = p.blue20 },
   ["@module"] = { fg = p.blue30 },
+  ["@tag"] = { link = "@module" },
+  ["@tag.delimiter"] = { link = "Delimiter" },
 
   -- tone down atoms in elixir which are overbearing
   ["@string.special.symbol.elixir"] = { fg = p.white3 },
