@@ -91,6 +91,7 @@ local groups = {
   ["@punctuation.special"] = { fg = p.blue20 },
   ["@module"] = { fg = p.blue30 },
   ["@tag"] = { link = "@function.call" },
+  ["@tag.attribute"] = { fg = p.blue30 },
   ["@tag.delimiter"] = { link = "Delimiter" },
   ["@constructor"] = { fg = p.purple40 },
 
