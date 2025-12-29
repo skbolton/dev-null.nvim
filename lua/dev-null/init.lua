@@ -75,7 +75,7 @@ local groups = {
   Statement = { link = "Normal" },
   Special = { link = "Normal" },
   Constant = { fg = p.white2 },
-  Number = { fg = p.blue50 },
+  Number = { fg = p.blue40 },
   Type = { link = "Normal" },
   Delimiter = { fg = p.blue20 },
 
