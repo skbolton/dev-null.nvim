@@ -90,7 +90,7 @@ local groups = {
   ["@boolean"] = { fg = p.teal10, bold = true },
   ["@punctuation.special"] = { fg = p.blue20 },
   ["@module"] = { fg = p.blue30 },
-  ["@tag"] = { link = "@module" },
+  ["@tag"] = { link = "@function.call" },
   ["@tag.delimiter"] = { link = "Delimiter" },
   ["@constructor"] = { fg = p.purple40 },
 
