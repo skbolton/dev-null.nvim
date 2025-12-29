@@ -22,10 +22,10 @@ local p = {
   magenta_0 = "#ffd6e8",
   magenta_1 = "#ffafd2",
   magenta_2 = "#ff7eb6",
-  magenta_3 = "#ee5396",
+  magenta30 = "#ee5396",
   magenta_4 = "#d02670",
   magenta_5 = "#9f1853",
-  magenta_6 = "#740937",
+  magenta60 = "#740937",
   magenta_7 = "#510224",
   magenta_8 = "#2a0a18",
 
@@ -34,6 +34,8 @@ local p = {
   blue30 = "#a6c8ff",
   blue40 = "#78a9ff",
   blue50 = "#4589ff",
+  blue60 = "#0f62fe",
+  blue70 = "#0043ce",
 
   teal10 = "#d9fbfb",
   teal20 = "#9ef0f0",
@@ -47,7 +49,8 @@ local p = {
   purple30 = "#d4bbff",
   purple40 = "#be95ff",
   purple50 = "#a56eff",
-  purple60 = "#8a3ffc"
+  purple60 = "#8a3ffc",
+  purple70 = "#6929c4",
 }
 
 -- highlight groups
@@ -111,6 +114,12 @@ local groups = {
   TelescopeTitle = { fg = p.teal20 },
   TelescopePromptPrefix = { link = "@function" },
 
+  GitSignsAdd = { fg = p.teal30 },
+  GitSignsStagedAdd = { fg = p.teal60 },
+  GitSignsChange = { fg = p.purple40 },
+  GitSignsStagedChange = { fg = p.purple70 },
+  GitSignsDelete = { fg = p.magenta30 },
+  GitSignsStagedTopDelete = { fg = p.magenta60 },
 }
 
 function M:load()
