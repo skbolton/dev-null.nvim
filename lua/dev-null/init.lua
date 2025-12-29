@@ -66,7 +66,7 @@ local groups = {
   StatusLineNC = { bg = p.black2, fg = p.white3 },
   CursorLine = { bg = p.black2 },
   Visual = { bg = p.black3 },
-  CurSearch = { bg = p.teal30, fg = p.black0 },
+  CurSearch = { bg = p.teal20, fg = p.black0 },
   Search = { bg = p.purple60, fg = p.purple20 },
   IncSearch = { bg = p.teal10, fg = p.black0 },
   Cursor = { bg = p.purple30, fg = p.black0 },
