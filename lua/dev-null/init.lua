@@ -82,6 +82,7 @@ local groups = {
   ["@variable"] = { fg = p.white1 },
   ["@function"] = { fg = p.purple40 },
   ["@function.call"] = { fg = p.purple30 },
+  ["@function.method.call"] = { link = "@function.call" },
   ["@keyword"] = { fg = p.teal20 },
   ["@constant"] = { link = "Constant" },
   ["@constant.builtin"] = { fg = p.blue30, bold = true },
